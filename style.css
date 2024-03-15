@@ -1,0 +1,47 @@
+.apartment-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+  }
+
+  .apartment-list{
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-height: 400px; 
+    overflow-y: auto;
+    background-color: #ccc;
+    
+  }
+  .home-page{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+
+  .addApartment{
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  .addApartmentContainer{
+    margin-left: 180px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ccc;
+
+  }
+
+  .anApartment{
+    width: 50%;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  

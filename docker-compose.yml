@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: frontend
+    build: .
+    ports:
+      - "3001:3001"
+    environment:
+      - API_URL=http://localhost:3000/api
+    depends_on:
+      - backend
+
+  backend:
+    container_name: backend
+    image: backendapp-nodejs:latest
+    ports:
+      - "3003:3000"
+    # Add other configuration for your backend service as needed
+
+networks:
+  app-network:
+    driver: bridge
